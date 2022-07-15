@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let money=+prompt('Nhap so tien ban dau')
+    let ls=+prompt('Lai suat hang thang')
+    let soThang=+prompt('Nhap so thang gui tien')
+    let tienLai=1
+    for(let i=1;i<=soThang;i++){
+        tienLai=money*ls
+        money+=tienLai
+    }
+    alert(money)
+</script>
+</body>
+</html>
